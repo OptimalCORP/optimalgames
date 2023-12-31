@@ -3,15 +3,17 @@
 body {
   padding: 0;
   margin: 0; 
+  height: 100vh;
   background: #18191f;
-  font-family: 'Poppins', sans-serif; 
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: top;
 }
 
 ul {
   position: relative;
   display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 li {
@@ -68,4 +70,10 @@ input[type="checkbox"]:checked ~ div {
   }
 }
 
-
+#object1 {
+  position: absolute; 
+  top: 130px; 
+  left: 30px; 
+  width: 200px; 
+  height: auto; 
+}
